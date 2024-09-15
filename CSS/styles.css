@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 nav {
   width: 100%;
   height: 78px;
@@ -20,14 +24,36 @@ nav {
 
 .nav {
   display: flex;
-  gap: 36px;
+  gap: 30px;
 }
 
 .nav li {
   list-style: none;
   text-decoration: none;
+  padding: 10px 15px;
 }
 
 .nav .active {
   background-color: #cb2027;
+}
+
+.active a {
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #777;
+}
+
+.dropdown a:hover {
+  color: #333;
+  background-color: #f0f0f0;
 }
