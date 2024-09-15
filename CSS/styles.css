@@ -6,6 +6,28 @@
 
 nav {
   width: 100%;
+  height: 78px;
   border-top: 2px solid #cb2027;
   border-bottom: 2px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+.nav {
+  display: flex;
+  gap: 36px;
+}
+
+.nav li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav .active {
+  background-color: #cb2027;
 }
