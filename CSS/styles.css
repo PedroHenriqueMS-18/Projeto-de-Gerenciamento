@@ -15,45 +15,12 @@ nav {
   border-bottom: 2px solid #f0f0f0;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
-.logo {
-  margin-right: 40px;
+.title {
+  margin-left: 26%;
 }
 
-.nav {
-  display: flex;
-  gap: 20px;
-}
-
-.nav li {
-  list-style: none;
-  text-decoration: none;
-  padding: 10px 15px;
-}
-
-.nav .active {
-  background-color: #cb2027;
-}
-
-.active a {
-  font-size: 13px;
-  color: #fff;
-  text-decoration: none;
-}
-
-.dropdown:hover {
-  background-color: #f0f0f0;
-}
-
-.dropdown a {
-  text-decoration: none;
-  font-size: 13px;
-  color: #777;
-}
-
-.dropdown a:hover {
-  color: #333;
-  background-color: #f0f0f0;
+.title h1 {
+  color: #000;
 }
