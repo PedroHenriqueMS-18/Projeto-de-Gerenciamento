@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -38,8 +37,6 @@ nav {
 }
 
 .news button:hover {
-  /* transition: 0.3s ease-in-out;
-  transform: scale(1.05); */
   background-color: #cf3035;
   transition: 0.3s ease-in-out;
 }
@@ -55,7 +52,6 @@ nav {
 
 .info {
   width: 90%;
-  /* height: 10rem; */
   border: 3px solid #cb2027;
   border-radius: 20px;
   margin-bottom: 2%;
@@ -86,18 +82,15 @@ nav {
 
 /* Footer */
 footer {
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  bottom: 0px;
   width: 100%;
   background-color: #cb2027;
   text-align: center;
+  font-weight: bold;
 }
 
 .copy {
-  margin: 18px auto;
-}
-
-.copy p {
-  font-size: 15px;
   color: #fff;
+  margin: 15px 0 15px;
 }
