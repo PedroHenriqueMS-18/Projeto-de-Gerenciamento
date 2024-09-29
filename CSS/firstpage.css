@@ -51,7 +51,7 @@ nav {
 }
 
 .info {
-  width: 90%;
+  width: 80%;
   border: 3px solid #cb2027;
   border-radius: 20px;
   margin-bottom: 2%;
@@ -82,8 +82,8 @@ nav {
 
 /* Footer */
 footer {
-  position: absolute;
-  bottom: 0px;
+  /* position: absolute;
+  bottom: 0px; */
   width: 100%;
   background-color: #cb2027;
   text-align: center;
