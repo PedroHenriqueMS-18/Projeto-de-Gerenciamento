@@ -85,12 +85,11 @@ footer {
   /* position: absolute;
   bottom: 0px; */
   width: 100%;
-  background-color: #cb2027;
   text-align: center;
   font-weight: bold;
 }
 
 .copy {
-  color: #fff;
+  color: #8b8b8b;
   margin: 15px 0 15px;
 }
