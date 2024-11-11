@@ -75,6 +75,14 @@ h3 {
   margin-bottom: 10px;
 }
 
+.info ul li {
+  margin-left: 30px;
+}
+
+.info ul {
+  padding-bottom: 10px;
+}
+
 .info .access {
   margin-bottom: 5px;
 }
